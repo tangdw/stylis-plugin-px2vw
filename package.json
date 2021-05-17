@@ -1,12 +1,13 @@
 {
   "name": "stylis-plugin-px2vw",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "tangdw<tangdunwang@foxmail.com>",
   "license": "MIT",
   "description": "一个将 px 换算成 vw 的 stylis 插件",
   "repository": "https://github.com/tangdw/stylis-plugin-px2vw",
   "type": "module",
   "main": "dist/stylis-plugin-px2vw.umd.js",
+  "types": "types/main.d.ts",
   "module": "dist/stylis-plugin-px2vw.es.js",
   "exports": {
     ".": {
