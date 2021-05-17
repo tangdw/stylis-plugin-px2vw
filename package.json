@@ -1,0 +1,27 @@
+{
+  "name": "stylis-plugin-px2vw",
+  "version": "0.0.1",
+  "author": "tangdw",
+  "description": "一个将 px 换算成 vw 的 stylis 插件",
+  "repository": "https://github.com/tangdw/stylis-plugin-px2vw",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "stylis",
+    "plugin",
+    "px2vw",
+    "px",
+    "vw"
+  ],
+  "devDependencies": {
+    "vite": "^2.3.0"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.4.0",
+    "@emotion/css": "^11.1.3"
+  }
+}
