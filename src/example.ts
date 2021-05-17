@@ -22,7 +22,7 @@ export const {
 const demoCls = css`
   background: red;
   font-size: 18px;
-  width: 100px;
+  width: 100PX;
   height: 375px;
 `
 

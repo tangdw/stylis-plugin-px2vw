@@ -1,6 +1,6 @@
 import { StylisPlugin } from '@emotion/cache'
 
-const REG = /([1-9]\d*\.\d*|0\.\d*[1-9]|\d)+px(?!(\s*\)))/gi // 取含 px 值
+const REG = /"[^"]+"|'[^']+'|url\([^\)]+\)|(\d*\.?\d+)px/g // 取含 px 值
 
 interface Options {
   minWidth?: number
